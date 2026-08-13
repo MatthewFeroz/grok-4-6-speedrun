@@ -7,13 +7,6 @@
     .body { font-family: Inter, Arial, sans-serif; font-variant-numeric: tabular-nums; font-feature-settings: "liga" 0, "calt" 0; }
   </style>
 
-  <defs>
-    <linearGradient id="rightFade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2C2A25" stop-opacity="0"/>
-      <stop offset="1" stop-color="#2C2A25" stop-opacity="1"/>
-    </linearGradient>
-  </defs>
-
   <rect width="1920" height="1080" fill="#2C2A25"/>
 
   <!-- Merge Gateway lockup -->
@@ -30,58 +23,58 @@
     <text class="body" x="288" y="46" fill="#F5F2EE" font-size="44">Gateway</text>
   </g>
 
-  <!-- Hero metric -->
-  <g transform="translate(140 0)">
-    <text class="display" x="0" y="410" fill="#F5F2EE" font-size="142">Grok 4.6</text>
-    <text class="display" x="0" y="665" fill="#F5F2EE" font-size="190">61s</text>
-    <text class="body" x="4" y="720" fill="#F5F2EE" font-size="34" font-weight="500">Grok Build median</text>
-    <text class="body" x="4" y="763" fill="#D6CFC7" font-size="25">fastest harness in this run</text>
-    <text class="body" x="4" y="854" fill="#D6CFC7" font-size="27">76s overall median</text>
-    <text class="body" x="4" y="896" fill="#D6CFC7" font-size="27">13 of 15 trials passed</text>
-  </g>
-
-  <!-- Harness timing chart -->
+  <!-- Harness timing chart, left side -->
   <g class="body">
-    <text x="890" y="314" fill="#F5F2EE" font-size="38" font-weight="500">Median time to a verified solution</text>
-    <text x="890" y="356" fill="#D6CFC7" font-size="23">Seconds. Lower is faster.</text>
+    <text x="140" y="302" fill="#F5F2EE" font-size="42" font-weight="500">Median time to a verified solution</text>
+    <text x="140" y="347" fill="#D6CFC7" font-size="23">Seconds. Lower is faster.</text>
 
     <g>
-      <text x="890" y="444" fill="#F5F2EE" font-size="31" font-weight="500">Grok Build</text>
-      <text x="1114" y="444" fill="#D6CFC7" font-size="20" text-anchor="end">3/3</text>
-      <rect x="1150" y="401" width="317" height="62" rx="6" fill="#F5F2EE"/>
-      <text x="1441" y="443" fill="#2C2A25" font-size="26" font-weight="600" text-anchor="end">61s</text>
+      <text x="140" y="436" fill="#F5F2EE" font-size="31" font-weight="500">Grok Build</text>
+      <text x="390" y="436" fill="#D6CFC7" font-size="20" text-anchor="end">3/3</text>
+      <rect x="430" y="393" width="275" height="62" rx="6" fill="#F5F2EE"/>
+      <text x="679" y="435" fill="#2C2A25" font-size="26" font-weight="600" text-anchor="end">61s</text>
     </g>
 
-    <g transform="translate(0 110)">
-      <text x="890" y="444" fill="#F5F2EE" font-size="29">Claude Code</text>
-      <text x="1114" y="444" fill="#D6CFC7" font-size="20" text-anchor="end">3/3</text>
-      <rect x="1150" y="401" width="395" height="62" rx="6" fill="#D6CFC7" opacity="0.72"/>
-      <text x="1519" y="443" fill="#F5F2EE" font-size="26" font-weight="500" text-anchor="end">76s</text>
+    <g transform="translate(0 105)">
+      <text x="140" y="436" fill="#F5F2EE" font-size="29">Claude Code</text>
+      <text x="390" y="436" fill="#D6CFC7" font-size="20" text-anchor="end">3/3</text>
+      <rect x="430" y="393" width="342" height="62" rx="6" fill="#D6CFC7" opacity="0.72"/>
+      <text x="746" y="435" fill="#F5F2EE" font-size="26" font-weight="500" text-anchor="end">76s</text>
     </g>
 
-    <g transform="translate(0 220)">
-      <text x="890" y="444" fill="#F5F2EE" font-size="29">Codex</text>
-      <text x="1114" y="444" fill="#D6CFC7" font-size="20" text-anchor="end">3/3</text>
-      <rect x="1150" y="401" width="567" height="62" rx="6" fill="#D6CFC7" opacity="0.54"/>
-      <text x="1691" y="443" fill="#F5F2EE" font-size="26" font-weight="500" text-anchor="end">109s</text>
+    <g transform="translate(0 210)">
+      <text x="140" y="436" fill="#F5F2EE" font-size="29">Codex</text>
+      <text x="390" y="436" fill="#D6CFC7" font-size="20" text-anchor="end">3/3</text>
+      <rect x="430" y="393" width="491" height="62" rx="6" fill="#D6CFC7" opacity="0.54"/>
+      <text x="895" y="435" fill="#F5F2EE" font-size="26" font-weight="500" text-anchor="end">109s</text>
     </g>
 
-    <g transform="translate(0 330)">
-      <text x="890" y="444" fill="#F5F2EE" font-size="29">Pi</text>
-      <text x="1114" y="444" fill="#D6CFC7" font-size="20" text-anchor="end">2/3</text>
-      <rect x="1150" y="401" width="603" height="62" rx="6" fill="#D6CFC7" opacity="0.40"/>
-      <text x="1727" y="443" fill="#F5F2EE" font-size="26" font-weight="500" text-anchor="end">116s</text>
+    <g transform="translate(0 315)">
+      <text x="140" y="436" fill="#F5F2EE" font-size="29">Pi</text>
+      <text x="390" y="436" fill="#D6CFC7" font-size="20" text-anchor="end">2/3</text>
+      <rect x="430" y="393" width="522" height="62" rx="6" fill="#D6CFC7" opacity="0.40"/>
+      <text x="926" y="435" fill="#F5F2EE" font-size="26" font-weight="500" text-anchor="end">116s</text>
     </g>
 
-    <g transform="translate(0 440)">
-      <text x="890" y="444" fill="#F5F2EE" font-size="29">OpenCode</text>
-      <text x="1114" y="444" fill="#D6CFC7" font-size="20" text-anchor="end">2/3</text>
-      <rect x="1150" y="401" width="870" height="62" rx="6" fill="#D6CFC7" opacity="0.26"/>
-      <text x="1810" y="443" fill="#F5F2EE" font-size="26" font-weight="500" text-anchor="end">163s</text>
+    <g transform="translate(0 420)">
+      <text x="140" y="436" fill="#F5F2EE" font-size="29">OpenCode</text>
+      <text x="390" y="436" fill="#D6CFC7" font-size="20" text-anchor="end">2/3</text>
+      <rect x="430" y="393" width="734" height="62" rx="6" fill="#D6CFC7" opacity="0.26"/>
+      <text x="1138" y="435" fill="#F5F2EE" font-size="26" font-weight="500" text-anchor="end">163s</text>
     </g>
   </g>
 
-  <rect x="1820" y="380" width="100" height="540" fill="url(#rightFade)"/>
+  <!-- Grok 4.6 hero lockup, right side -->
+  <g>
+    <circle cx="1480" cy="483" r="150" fill="none" stroke="#F5F2EE" stroke-opacity="0.28" stroke-width="1.5"/>
+    <svg x="1360" y="363" width="240" height="240" viewBox="0 0 24 24" fill="#F5F2EE" aria-label="Grok logo">
+      <title>Grok</title>
+      <path fill-rule="evenodd" d="M6.469 8.776L16.512 23h-4.464L2.005 8.776H6.47zm-.004 7.9l2.233 3.164L6.467 23H2l4.465-6.324zM22 2.582V23h-3.659V7.764L22 2.582zM22 1l-9.952 14.095-2.233-3.163L17.533 1H22z"/>
+    </svg>
+    <text class="display" x="1228" y="766" fill="#F5F2EE" font-size="120">Grok 4.6</text>
+    <text class="body" x="1236" y="833" fill="#F5F2EE" font-size="31" font-weight="500">61s with Grok Build</text>
+    <text class="body" x="1236" y="878" fill="#D6CFC7" font-size="24">76s overall median · 13 of 15 passed</text>
+  </g>
 
   <line x1="140" y1="978" x2="1780" y2="978" stroke="#F5F2EE" stroke-opacity="0.10"/>
   <text class="body" x="140" y="1021" fill="#D6CFC7" opacity="0.72" font-size="18">Curated Terminal-Bench 2.0 speedrun · 3 tasks · 15 trials · 5-minute cap · agent execution only · 1 attempt</text>
