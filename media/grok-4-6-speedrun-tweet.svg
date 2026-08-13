@@ -31,7 +31,7 @@
     <g>
       <text x="140" y="436" fill="#F5F2EE" font-size="31" font-weight="500">Grok Build</text>
       <text x="390" y="436" fill="#D6CFC7" font-size="20" text-anchor="end">3/3</text>
-      <rect x="430" y="393" width="275" height="62" rx="6" fill="#F5F2EE"/>
+      <rect x="430" y="393" width="275" height="62" rx="6" fill="#96BDCE"/>
       <text x="679" y="435" fill="#2C2A25" font-size="26" font-weight="600" text-anchor="end">61s</text>
     </g>
 
@@ -66,8 +66,7 @@
 
   <!-- Grok 4.6 hero lockup, right side -->
   <g>
-    <circle cx="1480" cy="483" r="150" fill="none" stroke="#F5F2EE" stroke-opacity="0.28" stroke-width="1.5"/>
-    <svg x="1360" y="363" width="240" height="240" viewBox="0 0 24 24" fill="#F5F2EE" aria-label="Grok logo">
+    <svg x="1340" y="343" width="280" height="280" viewBox="0 0 24 24" fill="#96BDCE" aria-label="Grok logo">
       <title>Grok</title>
       <path fill-rule="evenodd" d="M6.469 8.776L16.512 23h-4.464L2.005 8.776H6.47zm-.004 7.9l2.233 3.164L6.467 23H2l4.465-6.324zM22 2.582V23h-3.659V7.764L22 2.582zM22 1l-9.952 14.095-2.233-3.163L17.533 1H22z"/>
     </svg>
