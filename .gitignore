@@ -1,0 +1,9 @@
+.DS_Store
+*.env
+.env*
+jobs/
+sessions/
+trajectories/
+*.log
+*api_key*
+*secret*

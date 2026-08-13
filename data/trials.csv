@@ -1,0 +1,16 @@
+task,harness,verified,agent_seconds,exception
+fix-git,grok-build,1,46.1,
+fix-git,opencode,0,300.0,AgentTimeoutError
+fix-git,codex,1,40.5,
+fix-git,claude-code,1,39.2,
+fix-git,pi,1,22.2,
+regex-log,grok-build,1,297.0,
+regex-log,opencode,1,294.0,
+regex-log,codex,1,202.7,
+regex-log,claude-code,1,198.1,
+regex-log,pi,1,210.2,
+nginx-request-logging,grok-build,1,61.4,
+nginx-request-logging,opencode,1,32.5,
+nginx-request-logging,codex,1,109.4,
+nginx-request-logging,claude-code,1,76.4,
+nginx-request-logging,pi,0,142.7,

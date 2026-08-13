@@ -1,0 +1,77 @@
+{
+  "title": "Grok 4.6 Terminal-Bench 2.0 Developer Speedrun",
+  "status": "Curated marketing showcase; not an official Terminal-Bench leaderboard result",
+  "model": "xai/grok-4.6",
+  "route": "MERGE Gateway",
+  "tasks": [
+    "fix-git",
+    "regex-log",
+    "nginx-request-logging"
+  ],
+  "methodology": {
+    "harnesses": [
+      "grok-build",
+      "opencode",
+      "codex",
+      "claude-code",
+      "pi"
+    ],
+    "attempts_per_task_harness": 1,
+    "agent_timeout_seconds": 300,
+    "timing_scope": "Harbor agent_execution only; setup and verification excluded",
+    "concurrency": "fix-git sequential; regex-log and nginx-request-logging at two concurrent trials",
+    "failure_timing": "Timeouts charged the full 300-second cap"
+  },
+  "overall": {
+    "trials": 15,
+    "verified": 13,
+    "pass_rate_percent": 86.7,
+    "median_verified_seconds": 76.4,
+    "total_agent_seconds": 2072.4,
+    "verified_solutions_per_agent_hour": 22.6,
+    "estimated_api_cost_usd": 2.13
+  },
+  "by_harness": [
+    {
+      "harness": "Grok Build",
+      "verified": 3,
+      "trials": 3,
+      "pass_rate_percent": 100.0,
+      "median_verified_seconds": 61.4,
+      "verified_solutions_per_agent_hour": 26.7
+    },
+    {
+      "harness": "Claude Code",
+      "verified": 3,
+      "trials": 3,
+      "pass_rate_percent": 100.0,
+      "median_verified_seconds": 76.4,
+      "verified_solutions_per_agent_hour": 34.4
+    },
+    {
+      "harness": "Codex",
+      "verified": 3,
+      "trials": 3,
+      "pass_rate_percent": 100.0,
+      "median_verified_seconds": 109.4,
+      "verified_solutions_per_agent_hour": 30.6
+    },
+    {
+      "harness": "Pi",
+      "verified": 2,
+      "trials": 3,
+      "pass_rate_percent": 66.7,
+      "median_verified_seconds": 116.2,
+      "verified_solutions_per_agent_hour": 19.2
+    },
+    {
+      "harness": "OpenCode",
+      "verified": 2,
+      "trials": 3,
+      "pass_rate_percent": 66.7,
+      "median_verified_seconds": 163.2,
+      "verified_solutions_per_agent_hour": 11.5
+    }
+  ],
+  "cost_note": "Approximately $1.03 was reported directly by the Claude Code adapter. Remaining cost is estimated from adapter token logs at the live MERGE Gateway Grok 4.6 rates available during the run."
+}
