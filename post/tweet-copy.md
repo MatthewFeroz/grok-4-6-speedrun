@@ -1,9 +1,7 @@
-Grok 4.6 gets to green—fast. ⚡
+grok 4.6 solves coding tasks fast.
 
-A curated Terminal-Bench 2.0 speedrun through Grok Build, OpenCode, Codex, Claude Code & Pi:
+we tested it across 5 coding harnesses and 3 Terminal-Bench 2.0 tasks, all through Merge Gateway. median time to a test-verified solution was 76 seconds.
 
-✅ 13/15 verified
-⚡ 76s median time-to-green
-🏁 Grok Build fastest: 61s median
+grok build was the clear standout with a 61-second median, the fastest of all 5 harnesses. grok 4.6 + grok build is a seriously fast combo.
 
-One model. Five harnesses. Via MERGE Gateway.
+https://github.com/MatthewFeroz/grok-4-6-speedrun

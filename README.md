@@ -15,7 +15,7 @@ through five coding harnesses, routed through MERGE Gateway.
 
 - `data/trials.csv`: trial-level results used in the report
 - `data/summary.json`: aggregate metrics and methodology
-- `media/grok-4-6-speedrun-tweet.png`: current 1600×900 social image
+- `media/grok-4-6-speedrun-tweet.png`: current 1920×1080 X social image
 - `media/grok-4-6-speedrun-tweet.svg`: editable source for the image
 - `post/tweet-copy.md`: proposed X post
 - `METHODOLOGY.md`: scope, timing rules, limitations, and reproducibility notes
